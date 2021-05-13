@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/BlackCubes/eight-ball-js/issues"
   },
-  "homepage": "https://github.com/BlackCubes/eight-ball-js#readme"
+  "homepage": "https://github.com/BlackCubes/eight-ball-js#readme",
+  "devDependencies": {
+    "snowpack": "^3.4.0"
+  }
 }
