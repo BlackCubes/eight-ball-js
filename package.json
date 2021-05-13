@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/BlackCubes/eight-ball-js#readme",
   "devDependencies": {
+    "@snowpack/plugin-postcss": "^1.2.2",
     "eslint": "^7.26.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.3.0",
@@ -25,6 +26,7 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.4.0",
     "eslint-plugin-react": "^7.23.2",
+    "postcss-cli": "^8.3.1",
     "prettier": "^2.3.0",
     "snowpack": "^3.4.0"
   }
