@@ -10,6 +10,23 @@
     <link rel="stylesheet" href="css/bundle/styles.min.css" />
   </head>
   <body>
+    <!-- BASIC INPUT FORM -->
+    <form class="form" id="eightballForm" novalidate>
+      <div class="form__group">
+        <label for="ask" class="form__label">
+          <input type="text" name="ask" class="input" id="ask" required />
+
+          <span class="form__placeholder">Ask</span>
+
+          <span class="form__message"></span>
+        </label>
+      </div>
+
+      <div class="form__group">
+        <button type="submit" class="btn" id="eightballFormBtn">Ask</button>
+      </div>
+    </form>
+
     <!-- CUSTOM JS -->
     <script type="module" src="src/index.js"></script>
   </body>
