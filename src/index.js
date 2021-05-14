@@ -54,8 +54,6 @@ if (eightballForm) {
 
       document.querySelector('.eightball__answer').classList.add('response');
 
-      console.log(selectedAnswer);
-
       setTimeout(() => {
         document.querySelector('.eightball__answer-content').textContent = '';
 
