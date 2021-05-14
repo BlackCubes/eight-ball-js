@@ -1,7 +1,7 @@
-const randomQuestion = (...questions) => {
-  const randomSelection = Math.floor(Math.random() * questions.length);
+const randomAnswer = (...answers) => {
+  const randomSelection = Math.floor(Math.random() * answers.length);
 
-  return questions[randomSelection];
+  return answers[randomSelection];
 };
 
-export default randomQuestion;
+export default randomAnswer;
