@@ -60,7 +60,7 @@ if (eightballForm) {
         document.querySelector('.eightball__answer-content').textContent = '';
 
         document
-          .querySelector('.eightball_answer')
+          .querySelector('.eightball__answer')
           .classList.remove('response');
 
         formReset(document.getElementById('ask'));
