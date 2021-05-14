@@ -49,9 +49,22 @@ if (eightballForm) {
     if (checkErrors(errorStack)) {
       const selectedAnswer = randomAnswer(...eightballAnswers);
 
+      document.querySelector('.eightball__answer-content').textContent =
+        selectedAnswer;
+
+      document.querySelector('.eightball__answer').classList.add('response');
+
       console.log(selectedAnswer);
 
-      formReset(document.getElementById('ask'));
+      setTimeout(() => {
+        document.querySelector('.eightball__answer-content').textContent = '';
+
+        document
+          .querySelector('.eightball_answer')
+          .classList.remove('response');
+
+        formReset(document.getElementById('ask'));
+      }, 5000);
     }
   });
 }
