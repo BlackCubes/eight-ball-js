@@ -1,5 +1,5 @@
 import checkErrors from './checkErrors';
-import randomQuestion from './randomQuestion';
+import randomAnswer from './randomAnswer';
 import validateForm from './validate';
 
-export { checkErrors, randomQuestion, validateForm };
+export { checkErrors, randomAnswer, validateForm };
