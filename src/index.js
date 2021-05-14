@@ -64,7 +64,7 @@ if (eightballForm) {
           .classList.remove('response');
 
         formReset(document.getElementById('ask'));
-      }, 5000);
+      }, 7000);
     }
   });
 }
