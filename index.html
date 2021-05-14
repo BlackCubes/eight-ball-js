@@ -10,6 +10,34 @@
     <link rel="stylesheet" href="css/bundle/styles.min.css" />
   </head>
   <body>
+    <!-- BASIC INPUT FORM -->
+    <form class="form" id="eightballForm" novalidate>
+      <div class="form__group">
+        <label for="ask" class="form__label">
+          <input type="text" name="ask" class="input" id="ask" required />
+
+          <span class="form__placeholder">Ask</span>
+
+          <span class="form__message"></span>
+        </label>
+      </div>
+
+      <div class="form__group">
+        <button type="submit" class="btn" id="eightballFormBtn">Ask</button>
+      </div>
+    </form>
+
+    <!-- MAGIC EIGHTBALL -->
+    <section class="eightball">
+      <div class="eightball__img">
+        <img src="img/eight-ball/eightball.png" alt="Magic Eightball" />
+      </div>
+
+      <div class="eightball__answer">
+        <span class="eightball__answer-content"></span>
+      </div>
+    </section>
+
     <!-- CUSTOM JS -->
     <script type="module" src="src/index.js"></script>
   </body>

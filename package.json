@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/BlackCubes/eight-ball-js#readme",
   "devDependencies": {
+    "@snowpack/plugin-dotenv": "^2.1.0",
     "@snowpack/plugin-postcss": "^1.2.2",
     "eslint": "^7.26.0",
     "eslint-config-airbnb": "^18.2.1",
